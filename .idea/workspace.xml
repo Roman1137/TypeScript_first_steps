@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c736c1-336b-4f2f-b04a-bab5ae4e9206" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/01-variables/01-variables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/01-variables/01-variables.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/01-variables/02-var-scoping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/01-variables/02-var-scoping.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/01-variables/03-let-scoping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/01-variables/03-let-scoping.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/01-variables/04-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/01-variables/04-types.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/01-variables/04-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/01-variables/04-types.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,7 +62,7 @@
           <entry key="html" value="23" />
           <entry key="js" value="20" />
           <entry key="json" value="783" />
-          <entry key="ts" value="3268" />
+          <entry key="ts" value="3275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -61,7 +71,7 @@
           <entry key="JSON" value="280" />
           <entry key="JavaScript" value="20" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="TypeScript" value="3268" />
+          <entry key="TypeScript" value="3275" />
           <entry key="tsconfig" value="503" />
         </counts>
       </usages-collector>
@@ -75,20 +85,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson_1/01-variables/04-types.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="170">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -122,8 +132,8 @@
         <option value="$PROJECT_DIR$/lesson_1/01-variables/03-let-scoping.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lesson_1/01-variables/04-types.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/04-types.ts" />
       </list>
     </option>
   </component>
@@ -160,11 +170,6 @@
             <path>
               <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,12 +220,12 @@
       <workItem from="1547314277525" duration="1284000" />
       <workItem from="1547315629948" duration="2028000" />
       <workItem from="1547412365814" duration="3094000" />
-      <workItem from="1547500119130" duration="6618000" />
+      <workItem from="1547500119130" duration="6780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13024000" />
+    <option name="totallyTimeSpent" value="13186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,17 +365,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/01-variables/04-types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/01-variables/04-types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

@@ -26,4 +26,4 @@ console.log(messageConcat);
 
 // ссылка на issue о tslint https://github.com/palantir/tslint/issues/1704
 
-console.log("dgfdgf")
+console.log("dgfdgvxcvxcf");

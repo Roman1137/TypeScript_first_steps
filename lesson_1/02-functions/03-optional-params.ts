@@ -21,3 +21,20 @@ console.log(fullName2);
 // параметры со значение по умолчанию - это параметры метода, для которых в объявлении функции
 // присвоено значение, которое будет использоваться если функция будет вызвана без
 // указания значения для данного параметра или если в качестве значения будет передано undefined
+
+// Разница между optional и default-initialize параметрами в том, что если пр вызове метода не
+// передать вообще ничего, то в случен optional - возьмется undefined, а в default-initialize - значение,
+// что указано.
+
+// default-initialize parameters
+function getDisplayedName(firstName: string, lastName: string = "Ivanov"): string {
+    return "Display Name: " + firstName + " " + lastName;
+}
+
+let fullName3: string = getDisplayedName("Ivan", "Ivanov");
+let fullName4: string = getDisplayedName("Ivan");
+let fullName5: string = getDisplayedName("Ivan", undefined); // идентиен предыдущему вызову
+
+console.log(fullName3);
+console.log(fullName4);
+console.log(fullName5);

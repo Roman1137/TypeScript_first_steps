@@ -33,7 +33,7 @@ function getDisplayedName(firstName: string, lastName: string = "Ivanov"): strin
 
 let fullName3: string = getDisplayedName("Ivan", "Ivanov");
 let fullName4: string = getDisplayedName("Ivan");
-let fullName5: string = getDisplayedName("Ivan", undefined); // идентиен предыдущему вызову
+let fullName5: string = getDisplayedName("Ivan", undefined); // идентиен предыдущему вызов у
 
 console.log(fullName3);
 console.log(fullName4);

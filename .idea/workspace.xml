@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="87c736c1-336b-4f2f-b04a-bab5ae4e9206" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,11 +53,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="64" />
+          <entry key="gitignore" value="69" />
           <entry key="html" value="23" />
           <entry key="js" value="20" />
           <entry key="json" value="793" />
-          <entry key="ts" value="10406" />
+          <entry key="ts" value="10417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -62,8 +65,8 @@
           <entry key="HTML" value="23" />
           <entry key="JSON" value="280" />
           <entry key="JavaScript" value="20" />
-          <entry key="PLAIN_TEXT" value="64" />
-          <entry key="TypeScript" value="10406" />
+          <entry key="PLAIN_TEXT" value="69" />
+          <entry key="TypeScript" value="10417" />
           <entry key="tsconfig" value="513" />
         </counts>
       </usages-collector>
@@ -77,11 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="159">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -94,20 +97,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -115,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="119">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -170,11 +164,11 @@
         <option value="$PROJECT_DIR$/lesson_1/01-variables/09-void.ts" />
         <option value="$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.ts" />
         <option value="$PROJECT_DIR$/lesson_1/02-functions/01-functions.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" />
         <option value="$PROJECT_DIR$/lesson_1/02-functions/04-rest-params.ts" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" />
       </list>
     </option>
   </component>
@@ -228,7 +222,21 @@
               <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
               <item name="02-functions" type="462c0819:PsiDirectoryNode" />
+              <item name="02-function-type.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="02-functions" type="462c0819:PsiDirectoryNode" />
               <item name="03-optional-params.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="02-functions" type="462c0819:PsiDirectoryNode" />
+              <item name="04-rest-params.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -302,12 +310,12 @@
       <workItem from="1547412365814" duration="3094000" />
       <workItem from="1547500119130" duration="7555000" />
       <workItem from="1547582154829" duration="5517000" />
-      <workItem from="1547665651369" duration="5220000" />
+      <workItem from="1547665651369" duration="5380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24698000" />
+    <option name="totallyTimeSpent" value="24858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,6 +382,7 @@
         <option value="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.js" />
         <option value="$PROJECT_DIR$/lesson_1/02-functions/04-rest-params.js" />
         <option value="$PROJECT_DIR$/lesson_1/02-functions/04-rest-params.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js" />
       </list>
     </option>
   </component>
@@ -545,19 +554,6 @@
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -572,10 +568,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts">
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -588,7 +587,17 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

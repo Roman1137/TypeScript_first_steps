@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c736c1-336b-4f2f-b04a-bab5ae4e9206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_1/01-variables/05-arrays.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/01-variables/06-typles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/01-variables/07-enums.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/01-variables/08-any.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/01-variables/09-void.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/02-functions/01-functions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
@@ -24,43 +23,44 @@
     <session id="751949913">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="html" value="2" />
-          <entry key="js" value="15" />
-          <entry key="json" value="21" />
-          <entry key="map" value="2" />
-          <entry key="ts" value="19" />
+          <entry key="js" value="18" />
+          <entry key="json" value="23" />
+          <entry key="map" value="3" />
+          <entry key="ts" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="15" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SourceMap" value="2" />
-          <entry key="TypeScript" value="19" />
-          <entry key="tsconfig" value="10" />
+          <entry key="JavaScript" value="18" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SourceMap" value="3" />
+          <entry key="TypeScript" value="24" />
+          <entry key="tsconfig" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="28" />
+          <entry key="gitignore" value="43" />
           <entry key="html" value="23" />
           <entry key="js" value="20" />
-          <entry key="json" value="787" />
-          <entry key="ts" value="7914" />
+          <entry key="json" value="793" />
+          <entry key="ts" value="9635" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -68,26 +68,56 @@
           <entry key="HTML" value="23" />
           <entry key="JSON" value="280" />
           <entry key="JavaScript" value="20" />
-          <entry key="PLAIN_TEXT" value="28" />
-          <entry key="TypeScript" value="7914" />
-          <entry key="tsconfig" value="507" />
+          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="TypeScript" value="9635" />
+          <entry key="tsconfig" value="513" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TsLintLanguageService" value="2" />
-          <entry key="TypeScriptServerServiceImpl" value="5" />
+          <entry key="TsLintLanguageService" value="3" />
+          <entry key="TypeScriptServerServiceImpl" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.ts">
+        <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -128,15 +158,18 @@
         <option value="$PROJECT_DIR$/lesson_1/01-variables/03-let-scoping.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lesson_1/01-variables/04-types.ts" />
         <option value="$PROJECT_DIR$/lesson_1/01-variables/05-arrays.ts" />
         <option value="$PROJECT_DIR$/lesson_1/01-variables/06-typles.ts" />
         <option value="$PROJECT_DIR$/lesson_1/01-variables/07-enums.ts" />
         <option value="$PROJECT_DIR$/lesson_1/01-variables/08-any.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/lesson_1/01-variables/09-void.ts" />
         <option value="$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.ts" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/01-functions.ts" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -154,7 +187,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-604" />
     <option name="y" value="-23" />
     <option name="width" value="1936" />
@@ -177,24 +210,20 @@
             <path>
               <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="01-variables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
               <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
-              <item name="01-variables" type="462c0819:PsiDirectoryNode" />
+              <item name="02-functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_1" type="462c0819:PsiDirectoryNode" />
+              <item name="02-functions" type="462c0819:PsiDirectoryNode" />
+              <item name="03-optional-params.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -205,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tsconfig.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="C:\project\TypeScript_Fundamentals\node_modules\tslint" />
@@ -216,6 +245,10 @@
     <property name="ts.external.directory.path" value="C:\project\TypeScript_Fundamentals\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\TypeScript_Fundamentals\lesson_1\02-functions" />
+      <recent name="C:\project\TypeScript_Fundamentals\dist\02-functions" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\project\TypeScript_Fundamentals" />
     </key>
@@ -232,6 +265,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Node.js.02-function-type.js">
+    <configuration name="02-function-type.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02-function-type.js" working-dir="$PROJECT_DIR$/lesson_1/02-functions">
+      <method v="2" />
+    </configuration>
+    <configuration name="NodeJs" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="lesson_1/02-functions/03-optional-params.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.NodeJs" />
+      <item itemvalue="Node.js.02-function-type.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.02-function-type.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -246,12 +296,13 @@
       <workItem from="1547315629948" duration="2028000" />
       <workItem from="1547412365814" duration="3094000" />
       <workItem from="1547500119130" duration="7555000" />
-      <workItem from="1547582154829" duration="4752000" />
+      <workItem from="1547582154829" duration="5517000" />
+      <workItem from="1547665651369" duration="4087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18713000" />
+    <option name="totallyTimeSpent" value="23565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,14 +323,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22316866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32879046" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34412265" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2350937" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -291,6 +342,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lesson_1/hello_world.ts" />
@@ -337,9 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -347,13 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -404,20 +457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_1/01-variables/08-any.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,16 +468,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.ts">
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/01-functions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/02-functions/03-optional-params.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/02-functions/03-optional-params.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

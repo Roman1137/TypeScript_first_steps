@@ -16,4 +16,7 @@ let fullName1 = getFullName("Ivan", "Ivanov");
 let fullName2 = getFullName("Ivan");
 console.log(fullName1);
 console.log(fullName2);
+// параметры со значение по умолчанию - это параметры метода, для которых в объявлении функции
+// присвоено значение, которое будет использоваться если функция будет вызвана без
+// указания значения для данного параметра или если в качестве значения будет передано undefined
 //# sourceMappingURL=03-optional-params.js.map

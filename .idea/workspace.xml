@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c736c1-336b-4f2f-b04a-bab5ae4e9206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_1/02-functions/01-functions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +33,7 @@
         <counts>
           <entry key="gitignore" value="3" />
           <entry key="html" value="2" />
-          <entry key="js" value="18" />
+          <entry key="js" value="20" />
           <entry key="json" value="23" />
           <entry key="map" value="3" />
           <entry key="ts" value="24" />
@@ -47,7 +43,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="18" />
+          <entry key="JavaScript" value="20" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SourceMap" value="3" />
           <entry key="TypeScript" value="24" />
@@ -56,11 +52,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="43" />
+          <entry key="gitignore" value="49" />
           <entry key="html" value="23" />
           <entry key="js" value="20" />
           <entry key="json" value="793" />
-          <entry key="ts" value="9635" />
+          <entry key="ts" value="9941" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -68,8 +64,8 @@
           <entry key="HTML" value="23" />
           <entry key="JSON" value="280" />
           <entry key="JavaScript" value="20" />
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="TypeScript" value="9635" />
+          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="TypeScript" value="9941" />
           <entry key="tsconfig" value="513" />
         </counts>
       </usages-collector>
@@ -83,11 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -99,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -113,16 +109,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -167,8 +177,8 @@
         <option value="$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.ts" />
         <option value="$PROJECT_DIR$/lesson_1/02-functions/01-functions.ts" />
         <option value="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -187,7 +197,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-604" />
     <option name="y" value="-23" />
     <option name="width" value="1936" />
@@ -297,12 +307,12 @@
       <workItem from="1547412365814" duration="3094000" />
       <workItem from="1547500119130" duration="7555000" />
       <workItem from="1547582154829" duration="5517000" />
-      <workItem from="1547665651369" duration="4087000" />
+      <workItem from="1547665651369" duration="4496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23565000" />
+    <option name="totallyTimeSpent" value="23974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,6 +349,36 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lesson_1/app.js" />
+        <option value="$PROJECT_DIR$/lesson_1/app.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/04-types.js" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/07-enums.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/03-let-scoping.js" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/01-variables.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.js" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/09-void.js" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/03-let-scoping.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/06-typles.js" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/07-enums.js" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/05-arrays.js" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/09-void.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/04-types.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/05-arrays.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/08-any.js" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/06-typles.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/02-var-scoping.js" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/02-var-scoping.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/08-any.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/01-variables/01-variables.js" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/01-functions.js" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/01-functions.js.map" />
+        <option value="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -347,10 +387,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts</url>
+          <line>10</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -502,23 +548,23 @@
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,10 +575,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts">
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

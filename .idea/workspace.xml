@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c736c1-336b-4f2f-b04a-bab5ae4e9206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/01-foreach.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/010-split-join.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/011-slice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/012-sort.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/013-reverse.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/014-concat.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/015-indexOf-lastIndexOf-findIndex.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/016-keys-values.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/017-fill.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/018-сopyWithin.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/02-map.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/03-filter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/04-every-some.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/05-reduce-right.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/06-spread-operator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/07-for-of.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/08-push-pop-shift-unshift.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/01-arrays/09-length.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/01-generic-function.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/02-generic-function.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/03-generic-func-interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/04-generic-class.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/05-generic-class.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/07-constraints.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,12 +29,13 @@
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,20 +43,20 @@
           <entry key="70" value="1" />
           <entry key="gitignore" value="5" />
           <entry key="html" value="2" />
-          <entry key="js" value="23" />
+          <entry key="js" value="26" />
           <entry key="json" value="26" />
           <entry key="map" value="4" />
-          <entry key="ts" value="79" />
+          <entry key="ts" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JSON" value="13" />
-          <entry key="JavaScript" value="24" />
+          <entry key="JavaScript" value="27" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SourceMap" value="4" />
-          <entry key="TypeScript" value="79" />
+          <entry key="TypeScript" value="95" />
           <entry key="tsconfig" value="13" />
         </counts>
       </usages-collector>
@@ -75,7 +66,7 @@
           <entry key="html" value="23" />
           <entry key="js" value="20" />
           <entry key="json" value="817" />
-          <entry key="ts" value="33276" />
+          <entry key="ts" value="39579" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -84,20 +75,30 @@
           <entry key="JSON" value="280" />
           <entry key="JavaScript" value="20" />
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="TypeScript" value="33276" />
+          <entry key="TypeScript" value="39579" />
           <entry key="tsconfig" value="537" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TsLintLanguageService" value="5" />
-          <entry key="TypeScriptServerServiceImpl" value="8" />
+          <entry key="TsLintLanguageService" value="6" />
+          <entry key="TypeScriptServerServiceImpl" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,14 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lesson_1/01-variables/08-any.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/01-variables/09-void.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/01-variables/10-type-assertions.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/01-functions.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/04-rest-params.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/05-context.ts" />
         <option value="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts" />
         <option value="$PROJECT_DIR$/lesson_1/02-functions/06-arrow-functions.ts" />
         <option value="$PROJECT_DIR$/lesson_1/02-functions/07-arrow-function-context.ts" />
@@ -170,6 +163,14 @@
         <option value="$PROJECT_DIR$/lesson_3/01-arrays/015-indexOf-lastIndexOf-findIndex.ts" />
         <option value="$PROJECT_DIR$/lesson_3/01-arrays/017-fill.ts" />
         <option value="$PROJECT_DIR$/lesson_3/01-arrays/018-сopyWithin.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/01-generic-function.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/02-generic-function.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/03-generic-func-interface.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/04-generic-class.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/05-generic-class.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/07-constrains.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts" />
       </list>
     </option>
   </component>
@@ -215,7 +216,7 @@
               <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
               <item name="lesson_3" type="462c0819:PsiDirectoryNode" />
-              <item name="01-arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="02-generics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,20 +259,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.015-indexOf-lastIndexOf-findIndex.js">
-    <configuration name="01-foreach.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="01-foreach.js" working-dir="$PROJECT_DIR$/lesson_3/01-arrays">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.08-constraints.js">
     <configuration name="015-indexOf-lastIndexOf-findIndex.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="015-indexOf-lastIndexOf-findIndex.js" working-dir="$PROJECT_DIR$/lesson_3/01-arrays">
       <method v="2" />
     </configuration>
     <configuration name="016-keys-values.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="016-keys-values.js" working-dir="$PROJECT_DIR$/lesson_3/01-arrays">
       <method v="2" />
     </configuration>
-    <configuration name="08-push-pop-shift-unshift.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="08-push-pop-shift-unshift.js" working-dir="$PROJECT_DIR$/lesson_3/01-arrays">
+    <configuration name="06-dictionary.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="06-dictionary.js" working-dir="$PROJECT_DIR$/lesson_3/02-generics">
       <method v="2" />
     </configuration>
-    <configuration name="08-static.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson_2/01-classes/08-static.js" working-dir="$PROJECT_DIR$/lesson_2/01-classes">
+    <configuration name="08-constraints.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="08-constraints.js" working-dir="$PROJECT_DIR$/lesson_3/02-generics">
+      <method v="2" />
+    </configuration>
+    <configuration name="08-push-pop-shift-unshift.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="08-push-pop-shift-unshift.js" working-dir="$PROJECT_DIR$/lesson_3/01-arrays">
       <method v="2" />
     </configuration>
     <configuration name="NodeJs" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="lesson_1/02-functions/03-optional-params.js" working-dir="$PROJECT_DIR$">
@@ -279,19 +280,19 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.NodeJs" />
-      <item itemvalue="Node.js.08-static.js" />
-      <item itemvalue="Node.js.01-foreach.js" />
       <item itemvalue="Node.js.08-push-pop-shift-unshift.js" />
       <item itemvalue="Node.js.016-keys-values.js" />
       <item itemvalue="Node.js.015-indexOf-lastIndexOf-findIndex.js" />
+      <item itemvalue="Node.js.06-dictionary.js" />
+      <item itemvalue="Node.js.08-constraints.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.08-constraints.js" />
+        <item itemvalue="Node.js.06-dictionary.js" />
         <item itemvalue="Node.js.015-indexOf-lastIndexOf-findIndex.js" />
         <item itemvalue="Node.js.016-keys-values.js" />
         <item itemvalue="Node.js.08-push-pop-shift-unshift.js" />
-        <item itemvalue="Node.js.01-foreach.js" />
-        <item itemvalue="Node.js.08-static.js" />
       </list>
     </recent_temporary>
   </component>
@@ -313,11 +314,12 @@
       <workItem from="1547665651369" duration="10956000" />
       <workItem from="1547975898996" duration="17684000" />
       <workItem from="1548183216910" duration="12525000" />
+      <workItem from="1548271895557" duration="8123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60643000" />
+    <option name="totallyTimeSpent" value="68766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,21 +332,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19568452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19568452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.25383306" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27597955" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26064736" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3781942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32879046" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32027256" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3253833" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -424,6 +427,22 @@
         <option value="$PROJECT_DIR$/lesson_1/app.js" />
         <option value="$PROJECT_DIR$/lesson_2/02-inheritnce/01-base-derived.js" />
         <option value="$PROJECT_DIR$/lesson_2/02-inheritnce/01-base-derived.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/08-constraints.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/08-constraints.js" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.js" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/05-generic-class.js" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/05-generic-class.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/04-generic-class.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/04-generic-class.js" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/03-generic-func-interface.js" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/03-generic-func-interface.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/02-generic-function.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/02-generic-function.js" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/01-generic-function.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/01-generic-function.js" />
+        <option value="$PROJECT_DIR$/lesson_3/01-arrays/018-сopyWithin.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/01-arrays/018-сopyWithin.js" />
         <option value="$PROJECT_DIR$/lesson_3/01-arrays/017-fill.js" />
         <option value="$PROJECT_DIR$/lesson_3/01-arrays/017-fill.js.map" />
         <option value="$PROJECT_DIR$/lesson_3/01-arrays/016-keys-values.js.map" />
@@ -436,8 +455,6 @@
         <option value="$PROJECT_DIR$/lesson_3/01-arrays/012-sort.js.map" />
         <option value="$PROJECT_DIR$/lesson_3/01-arrays/011-slice.js.map" />
         <option value="$PROJECT_DIR$/lesson_3/01-arrays/011-slice.js" />
-        <option value="$PROJECT_DIR$/lesson_3/01-arrays/018-сopyWithin.js" />
-        <option value="$PROJECT_DIR$/lesson_3/01-arrays/018-сopyWithin.js.map" />
       </list>
     </option>
   </component>
@@ -460,8 +477,19 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lesson_3/01-arrays/015-indexOf-lastIndexOf-findIndex.ts</url>
           <line>40</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.js</url>
+          <line>33</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts</url>
+          <line>46</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -476,75 +504,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/01-functions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/07-arrow-function-context.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/06-arrow-functions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/05-context.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/04-rest-params.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/08-overloads.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/03-optional-params.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/08-overloads.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -646,30 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/03-interfaces/01-simple-interface.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/03-interfaces/02-optional-properties.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/03-interfaces/03-readonly-properties.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_2/03-interfaces/05-implementing.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -677,23 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/03-interfaces/04-function-types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_3/01-arrays/02-map.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_3/01-arrays/08-push-pop-shift-unshift.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_3/01-arrays/09-length.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -767,13 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_3/01-arrays/012-sort.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -848,6 +756,133 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/01-generic-function.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/02-generic-function.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_2/03-interfaces/01-simple-interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_2/03-interfaces/02-optional-properties.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_2/03-interfaces/03-readonly-properties.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_2/03-interfaces/04-function-types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/03-generic-func-interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/04-generic-class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/01-arrays/08-push-pop-shift-unshift.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/05-generic-class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/05-generic-class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/07-constraints.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/01-arrays/012-sort.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>

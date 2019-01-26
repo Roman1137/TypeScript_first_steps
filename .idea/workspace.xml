@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c736c1-336b-4f2f-b04a-bab5ae4e9206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/01-generic-function.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/02-generic-function.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/03-generic-func-interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/04-generic-class.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/05-generic-class.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/07-constraints.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/09-iterator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/10-symbol-iterator_for_of.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/02-generics/11-generators.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,17 +20,18 @@
     <session id="751949913">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,7 +42,7 @@
           <entry key="js" value="26" />
           <entry key="json" value="26" />
           <entry key="map" value="4" />
-          <entry key="ts" value="95" />
+          <entry key="ts" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -56,7 +52,7 @@
           <entry key="JavaScript" value="27" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SourceMap" value="4" />
-          <entry key="TypeScript" value="95" />
+          <entry key="TypeScript" value="98" />
           <entry key="tsconfig" value="13" />
         </counts>
       </usages-collector>
@@ -66,7 +62,7 @@
           <entry key="html" value="23" />
           <entry key="js" value="20" />
           <entry key="json" value="817" />
-          <entry key="ts" value="39579" />
+          <entry key="ts" value="43559" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -75,25 +71,25 @@
           <entry key="JSON" value="280" />
           <entry key="JavaScript" value="20" />
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="TypeScript" value="39579" />
+          <entry key="TypeScript" value="43559" />
           <entry key="tsconfig" value="537" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TsLintLanguageService" value="6" />
-          <entry key="TypeScriptServerServiceImpl" value="9" />
+          <entry key="TsLintLanguageService" value="7" />
+          <entry key="TypeScriptServerServiceImpl" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts">
+        <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/11-generators.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="205">
+              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -120,10 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/02-function-type.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/06-arrow-functions.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/07-arrow-function-context.ts" />
-        <option value="$PROJECT_DIR$/lesson_1/02-functions/08-overloads.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lesson_2/classes/01-somple-class.ts" />
         <option value="$PROJECT_DIR$/lesson_2/classes/01-simple-class.ts" />
@@ -171,6 +163,10 @@
         <option value="$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.ts" />
         <option value="$PROJECT_DIR$/lesson_3/02-generics/07-constrains.ts" />
         <option value="$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/09-iterator.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/10-symbol-iterator.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/10-symbol-iterator_for_of.ts" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/11-generators.ts" />
       </list>
     </option>
   </component>
@@ -200,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,11 +215,17 @@
               <item name="lesson_3" type="462c0819:PsiDirectoryNode" />
               <item name="02-generics" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TypeScript_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TypeScript_Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_3" type="462c0819:PsiDirectoryNode" />
+              <item name="02-generics" type="462c0819:PsiDirectoryNode" />
+              <item name="11-generators.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.08-constraints.js">
+  <component name="RunManager" selected="Node.js.11-generators.js">
     <configuration name="015-indexOf-lastIndexOf-findIndex.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="015-indexOf-lastIndexOf-findIndex.js" working-dir="$PROJECT_DIR$/lesson_3/01-arrays">
       <method v="2" />
     </configuration>
@@ -272,7 +275,7 @@
     <configuration name="08-constraints.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="08-constraints.js" working-dir="$PROJECT_DIR$/lesson_3/02-generics">
       <method v="2" />
     </configuration>
-    <configuration name="08-push-pop-shift-unshift.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="08-push-pop-shift-unshift.js" working-dir="$PROJECT_DIR$/lesson_3/01-arrays">
+    <configuration name="11-generators.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="11-generators.js" working-dir="$PROJECT_DIR$/lesson_3/02-generics">
       <method v="2" />
     </configuration>
     <configuration name="NodeJs" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="lesson_1/02-functions/03-optional-params.js" working-dir="$PROJECT_DIR$">
@@ -280,19 +283,19 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.NodeJs" />
-      <item itemvalue="Node.js.08-push-pop-shift-unshift.js" />
       <item itemvalue="Node.js.016-keys-values.js" />
       <item itemvalue="Node.js.015-indexOf-lastIndexOf-findIndex.js" />
       <item itemvalue="Node.js.06-dictionary.js" />
       <item itemvalue="Node.js.08-constraints.js" />
+      <item itemvalue="Node.js.11-generators.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.11-generators.js" />
         <item itemvalue="Node.js.08-constraints.js" />
         <item itemvalue="Node.js.06-dictionary.js" />
         <item itemvalue="Node.js.015-indexOf-lastIndexOf-findIndex.js" />
         <item itemvalue="Node.js.016-keys-values.js" />
-        <item itemvalue="Node.js.08-push-pop-shift-unshift.js" />
       </list>
     </recent_temporary>
   </component>
@@ -314,12 +317,13 @@
       <workItem from="1547665651369" duration="10956000" />
       <workItem from="1547975898996" duration="17684000" />
       <workItem from="1548183216910" duration="12525000" />
-      <workItem from="1548271895557" duration="8123000" />
+      <workItem from="1548271895557" duration="8352000" />
+      <workItem from="1548499916120" duration="5637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68766000" />
+    <option name="totallyTimeSpent" value="74632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,20 +338,20 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19568452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19568452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.25383306" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27597955" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3781942" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3781942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32879046" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3253833" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33730835" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -427,6 +431,10 @@
         <option value="$PROJECT_DIR$/lesson_1/app.js" />
         <option value="$PROJECT_DIR$/lesson_2/02-inheritnce/01-base-derived.js" />
         <option value="$PROJECT_DIR$/lesson_2/02-inheritnce/01-base-derived.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/11-generators.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/11-generators.js" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/09-iterator.js.map" />
+        <option value="$PROJECT_DIR$/lesson_3/02-generics/09-iterator.js" />
         <option value="$PROJECT_DIR$/lesson_3/02-generics/08-constraints.js.map" />
         <option value="$PROJECT_DIR$/lesson_3/02-generics/08-constraints.js" />
         <option value="$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.js.map" />
@@ -482,13 +490,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lesson_3/02-generics/06-dictionary.js</url>
           <line>33</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts</url>
           <line>46</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
@@ -504,20 +510,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson_1/02-functions/08-overloads.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_2/01-classes/01-simple-class.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_2/01-classes/01-simple-class.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -637,9 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,9 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,9 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,8 +864,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/08-constraints.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="173">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/09-iterator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/10-symbol-iterator_for_of.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_3/02-generics/11-generators.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
         </state>
       </provider>
     </entry>
